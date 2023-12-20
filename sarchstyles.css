@@ -1,0 +1,11 @@
+#map {
+    display: none;
+    /* マップを非表示にする */
+}
+
+#info {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    overflow-y: auto;
+}

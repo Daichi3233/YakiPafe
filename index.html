@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>yakipafe</title>
+        <meta name="description" content="sample text sample text sample text sample text sample text sample text sample text sample text sample text">
+        <link rel="stylesheet" href="./assets/css/sanitize.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzaQU4POQ3I20Lqe15egRYmRV-MMen2y4&libraries=places"></script>
+        <script defer src="script.js"></script>
+    </head>
+</head>
+<body>
+    <header>
+        <h1>
+            <a class="header-link" href="#">
+                Yaki Pafe
+            </a>
+        </h1>
+        <nav class="header-nav">
+            <ul class="header-list">
+                <li class="header-listitem">
+                    <a class="header-link" href="#">改善要望</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main-visual">
+        <h2>肉を喰らうか、パフェを喰らうか。</h2>
+        <p id="initialDescription">近場の(2km以内)の焼肉屋とパフェ屋を探すサービスです。</p>
+        <button id="yakinikuButton">
+            <a href="sarch.html">近場の肉を喰らう。</a>
+        </button>
+        <button id="parfaitButton" onclick="searchNearbyPlaces()">〆パフェ。</button>
+    </div>
+</body>
+</html>
